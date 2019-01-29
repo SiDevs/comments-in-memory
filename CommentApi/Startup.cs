@@ -38,6 +38,8 @@ namespace CommentApi
                 app.UseHsts();
             }
 
+            app.UseDefaultFiles();          // added to enable JQuery based webpage
+            app.UseStaticFiles();           // added to enable JQuery based webpage
             app.UseHttpsRedirection();
             app.UseMvc();
         }
