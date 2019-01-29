@@ -12,3 +12,17 @@ C:\Users\simonw\source\repos\CommentApi\CommentApi\obj\Debug\netcoreapp2.2\Comme
 C:\Users\simonw\source\repos\CommentApi\CommentApi\bin\Debug\netcoreapp2.2\CommentApi.pdb
 C:\Users\simonw\source\repos\CommentApi\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.dll
 C:\Users\simonw\source\repos\CommentApi\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.pdb
+C:\Users\welsh\source\repos\fussball\CommentApi\bin\Debug\netcoreapp2.2\CommentApi.deps.json
+C:\Users\welsh\source\repos\fussball\CommentApi\bin\Debug\netcoreapp2.2\CommentApi.runtimeconfig.json
+C:\Users\welsh\source\repos\fussball\CommentApi\bin\Debug\netcoreapp2.2\CommentApi.runtimeconfig.dev.json
+C:\Users\welsh\source\repos\fussball\CommentApi\bin\Debug\netcoreapp2.2\CommentApi.dll
+C:\Users\welsh\source\repos\fussball\CommentApi\bin\Debug\netcoreapp2.2\CommentApi.pdb
+C:\Users\welsh\source\repos\fussball\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.csprojAssemblyReference.cache
+C:\Users\welsh\source\repos\fussball\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.csproj.CoreCompileInputs.cache
+C:\Users\welsh\source\repos\fussball\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.RazorAssemblyInfo.cache
+C:\Users\welsh\source\repos\fussball\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.RazorAssemblyInfo.cs
+C:\Users\welsh\source\repos\fussball\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.AssemblyInfoInputs.cache
+C:\Users\welsh\source\repos\fussball\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.AssemblyInfo.cs
+C:\Users\welsh\source\repos\fussball\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.RazorTargetAssemblyInfo.cache
+C:\Users\welsh\source\repos\fussball\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.dll
+C:\Users\welsh\source\repos\fussball\CommentApi\obj\Debug\netcoreapp2.2\CommentApi.pdb
