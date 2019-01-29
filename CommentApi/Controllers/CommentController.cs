@@ -75,6 +75,23 @@ namespace CommentApi.Controllers
 
         }
 
+        // DELETE: api/Comment/5        **DELETE**
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCommentItem(long id)
+        {
+            var commentItem = await _context.CommentItems.FindAsync(id);
+
+            if (commentItem == null)
+            {
+                return NotFound();
+            }
+
+            _context.CommentItems.Remove(commentItem);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
 
     }
 
