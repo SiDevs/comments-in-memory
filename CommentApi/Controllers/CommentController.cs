@@ -21,19 +21,20 @@ namespace CommentApi.Controllers
             {
                 // Create a new CommentItem if collection is empty,
                 // which means you can't delete all comments.
-                _context.CommentItems.Add(new CommentItem { Name = "Comment1" });
+                _context.CommentItems.Add(new CommentItem { Name = "Comment1", IsPublic = true });
+
                 _context.SaveChanges();
             }
         }
 
-        // GET: api/Comment
+        // GET: api/Comment             **READ**
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CommentItem>>> GetCommentItem()
         {
             return await _context.CommentItems.ToListAsync();
         }
 
-        // GET: api/Comment/5
+        // GET: api/Comment/5           **READ**
         [HttpGet("{id}")]
         public async Task<ActionResult<CommentItem>> GetCommentItem(long id)
         {
@@ -47,6 +48,34 @@ namespace CommentApi.Controllers
             return commentItem;
 
         }
+
+        // POST: api/Comment            **CREATE**
+        [HttpPost]
+        public async Task<ActionResult<CommentItem>> PostCommentItem(CommentItem item)
+        {
+            _context.CommentItems.Add(item);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetCommentItem), new { id = item.Id }, item);
+        }
+
+        // PUT: api/Comment/5           **UPDATE**
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutCommentItem(long id, CommentItem item)
+        {
+            if (id != item.Id)  
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(item).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+
+        }
+
+
     }
 
 
